@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
+<html lang="no"><head>
   <meta charset="utf-8">
   <title>VistaDent | En heldekkende assistent-løsning for tannhelseyrket</title>
   <meta name="keywords" content="">
@@ -46,11 +47,12 @@
       </div>
     </div>
         
+    <span itemscope itemtype="http://schema.org/SoftwareApplication">
     <header>
       <div class="container">
         <div class="row">
           <div class="col-xs-6">
-            <a href="index.html"><img src="img/logo3.svg" alt="Logo"></a>
+            <a itempop="url" href="index.html"><img src="img/logo3.svg" alt="Logo"></a>
           </div>
           <div class="col-xs-6 signin text-right navbar-nav">
             <a href="#">Søk om invitasjon</a>
@@ -59,7 +61,7 @@
         
         <div class="row header-info">
           <div class="col-sm-10 col-sm-offset-1 text-center">
-            <h1 class="wow fadeIn">Vistadent</h1>
+            <h1 itemprop="name" class="wow fadeIn">Vistadent</h1>
             <br />
             <p class="lead wow fadeIn" data-wow-delay="0.5s">En kreativ løsning for et konservativt marked.<br></p> 
 
@@ -133,7 +135,7 @@
             <i class="fa fa-envelope-o margin-40"></i>
             <h2 class="black">Søk om tidlig tilgang</h2>
             <br />
-            <p class="black">Gi oss din e-postadresse i skjemaet under for å bli varslet når vi åpner for tidlig tilgang.</p>
+            <p itemprop="requirements" class="black">Gi oss din e-postadresse i skjemaet under for å bli varslet når vi åpner for tidlig tilgang.</p>
             <br />
             
             <div class="row">
@@ -199,12 +201,17 @@
           
           <div class="col-sm-4 text-right">
             <p><small>
-              Designed by <a href="https://www.goodies.no">Goodies</a></small></p>
+              Designed by <a href="https://www.goodies.no">
+              <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="name">Goodies</span></span></a></small></p>
           </div>
         </div>
         
       </div>
     </footer>
+
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="www.goodies.no"></span></span>
     
     
     <!-- Javascript
