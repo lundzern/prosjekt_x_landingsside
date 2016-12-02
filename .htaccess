@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^vistadent.no [NC]
+RewriteRule ^(.*)$ http://www.vistadent.no/$1 [L,R=301,NC]
