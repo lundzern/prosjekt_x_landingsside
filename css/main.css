@@ -25,6 +25,12 @@ h1 {
   letter-spacing: -1px;
   color: #ffffff;
   font-weight: 700;
+      word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
 }
 
 h2 {
