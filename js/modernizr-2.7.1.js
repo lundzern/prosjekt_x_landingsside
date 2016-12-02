@@ -15,13 +15,13 @@ window.Modernizr = (function( window, document, undefined ) {
 
     docElement = document.documentElement,
 
-    mod = 'modernizr',
+    mod = "modernizr",
     modElem = document.createElement(mod),
     mStyle = modElem.style,
 
     inputElem  = document.createElement('input')  ,
 
-    smile = ':)',
+    smile = ":)",
 
     toString = {}.toString,
 
