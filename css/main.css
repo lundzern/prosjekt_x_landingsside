@@ -287,6 +287,7 @@ a:hover, a:focus {
 @media (max-width: 500px) {
   .center2 img {
     width:240px;
+
   }
 }
 
@@ -384,7 +385,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/section2_2.svg) #231f20 no-repeat center center fixed;
+  background: url(../img/Section2_2.svg) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
