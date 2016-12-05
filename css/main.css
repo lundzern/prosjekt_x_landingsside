@@ -284,13 +284,17 @@ a:hover, a:focus {
 	margin-top: 6px;
 }
 
-
+@media (max-width: 500px) {
+  .center2 img {
+    width:240px;
+  }
+}
 
 /* ==========================================================================
    Main styles
    ========================================================================== */
 
-  
+
 header {
   background: url(../img/header3.png) no-repeat center center;
   width: 100%;
